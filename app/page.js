@@ -12,7 +12,7 @@ export default function Home() {
       <p className="text-gray-400 text-xl mb-10 text-center max-w-md">
         Someone captured you mid-stride. Find your race photos in seconds — no fees, no paywalls.
       </p>
-      <div className="flex flex-col sm:flex-row gap-4">
+      <div className="flex flex-col sm:flex-row gap-4 mb-4">
         <Link href="/search">
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-3 rounded-full transition">
             Find my photos
@@ -21,6 +21,23 @@ export default function Home() {
         <Link href="/upload">
           <button className="border border-gray-600 hover:border-gray-400 text-gray-300 hover:text-white font-semibold px-8 py-3 rounded-full transition">
             Upload race photos
+          </button>
+        </Link>
+      </div>
+      <div className="flex flex-col sm:flex-row gap-4">
+        <Link href="/community">
+          <button className="border border-orange-500/50 hover:border-orange-500 text-orange-400 hover:text-orange-300 font-semibold px-8 py-3 rounded-full transition">
+            Community feed
+          </button>
+        </Link>
+        <Link href="/strava">
+          <button className="border border-orange-500/50 hover:border-orange-500 text-orange-400 hover:text-orange-300 font-semibold px-8 py-3 rounded-full transition">
+            Connect Strava
+          </button>
+        </Link>
+        <Link href="/bibs">
+          <button className="border border-orange-500/50 hover:border-orange-500 text-orange-400 hover:text-orange-300 font-semibold px-8 py-3 rounded-full transition">
+            Bib marketplace
           </button>
         </Link>
       </div>
