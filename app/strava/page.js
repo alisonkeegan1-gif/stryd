@@ -68,7 +68,7 @@ export default function StravaPage() {
     <main className="min-h-screen bg-gray-950 text-white p-6 max-w-lg mx-auto">
       <div className="flex items-center gap-3 mb-8 mt-4">
         <Link href="/" className="text-gray-500 hover:text-white transition text-sm">Back</Link>
-        <h1 className="text-xl font-bold tracking-tight">Stryd</h1>
+        <h1 className="text-xl font-bold tracking-tight">BibRun</h1>
       </div>
 
       {!athlete ? (
@@ -100,7 +100,7 @@ export default function StravaPage() {
               <span className="text-xl mt-0.5">👥</span>
               <div>
                 <p className="text-sm font-medium mb-1">Find club teammates</p>
-                <p className="text-xs text-gray-400">See which of your Strava followers are also on Stryd.</p>
+                <p className="text-xs text-gray-400">See which of your Strava followers are also on BibRun.</p>
               </div>
             </div>
           </div>

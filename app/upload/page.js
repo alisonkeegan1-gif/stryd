@@ -48,7 +48,7 @@ export default function Upload() {
     <main className="min-h-screen bg-gray-950 text-white p-6 max-w-lg mx-auto">
       <div className="flex items-center gap-3 mb-8 mt-4">
         <Link href="/" className="text-gray-500 hover:text-white transition text-sm">Back</Link>
-        <h1 className="text-xl font-bold tracking-tight">Stryd</h1>
+        <h1 className="text-xl font-bold tracking-tight">BibRun</h1>
       </div>
 
       <div className="flex items-center gap-2 mb-8">

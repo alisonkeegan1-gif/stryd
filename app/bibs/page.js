@@ -60,7 +60,7 @@ export default function Bibs() {
     <main className="min-h-screen bg-gray-950 text-white p-6 max-w-lg mx-auto">
       <div className="flex items-center gap-3 mb-6 mt-4">
         <Link href="/" className="text-gray-500 hover:text-white transition text-sm">Back</Link>
-        <h1 className="text-xl font-bold tracking-tight">Stryd</h1>
+        <h1 className="text-xl font-bold tracking-tight">BibRun</h1>
       </div>
 
       <h2 className="text-2xl font-bold mb-1">Bib Marketplace</h2>
@@ -118,7 +118,7 @@ export default function Bibs() {
                   </div>
                 </div>
                 <div className="bg-gray-800/50 rounded-xl p-3 mb-3">
-                  <p className="text-xs text-gray-400">The transfer fee above is charged by the race organiser directly. Stryd charges nothing.</p>
+                  <p className="text-xs text-gray-400">The transfer fee above is charged by the race organiser directly. BibRun charges nothing.</p>
                 </div>
                 <div className="flex items-center justify-between">
                   <div>
@@ -153,7 +153,7 @@ export default function Bibs() {
               </div>
               <div className="flex items-start gap-3 text-xs text-gray-400">
                 <span className="w-5 h-5 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center flex-shrink-0 font-bold">3</span>
-                Buyer contacts you and pays the race transfer fee directly to the organiser. Stryd takes nothing.
+                Buyer contacts you and pays the race transfer fee directly to the organiser. BibRun takes nothing.
               </div>
             </div>
           </div>
@@ -191,7 +191,7 @@ export default function Bibs() {
             </div>
             <div className="flex items-start gap-3 bg-gray-900 border border-gray-800 rounded-xl p-4">
               <input type="checkbox" id="transfer" checked={newListing.transferConfirmed} onChange={e => setNewListing({ ...newListing, transferConfirmed: e.target.checked })} className="mt-0.5 accent-orange-500" />
-              <label htmlFor="transfer" className="text-xs text-gray-400 leading-relaxed">I confirm this is a legitimate registration and I will transfer it directly to the buyer through the official race website. I understand Stryd charges no fee for this service.</label>
+              <label htmlFor="transfer" className="text-xs text-gray-400 leading-relaxed">I confirm this is a legitimate registration and I will transfer it directly to the buyer through the official race website. I understand BibRun charges no fee for this service.</label>
             </div>
             <button onClick={handleSubmitListing} disabled={!newListing.race || !newListing.bibNumber || !newListing.reason || !newListing.transferConfirmed} className="w-full bg-orange-500 hover:bg-orange-600 disabled:opacity-40 text-white font-semibold py-4 rounded-full transition">
               List my bib for free

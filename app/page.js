@@ -7,7 +7,7 @@ export default function Home() {
         Race photos — free, forever
       </p>
       <h1 className="text-6xl font-bold mb-4 tracking-tight">
-        Stryd
+        BibRun
       </h1>
       <p className="text-gray-400 text-xl mb-10 text-center max-w-md">
         Someone captured you mid-stride. Find your race photos in seconds — no fees, no paywalls.

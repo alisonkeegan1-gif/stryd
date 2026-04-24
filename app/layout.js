@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-title: "Stryd — Race photos, free forever",
+title: "BibRun — Race photos, free forever",
 description: "Find your race photos in seconds using just a selfie. Free, community-powered.",
 };
 

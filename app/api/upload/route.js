@@ -27,7 +27,7 @@ export async function POST(request) {
 
     // Upload to Cloudinary
     const cloudinaryResult = await cloudinary.uploader.upload(dataUri, {
-      folder: `stryd/race-${raceId}`,
+      folder: `bibrun/race-${raceId}`,
     })
 
     const photoUrl = cloudinaryResult.secure_url
